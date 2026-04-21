@@ -2,10 +2,14 @@
 
 ## Prerequisites
 
-1. SSH key for Deployer to authenticate against GitHub (if private Repo)
-2. SSH key for Deployer to authenticate against Server
-3. Target server needs to have the rsync binary
+1. SSH key for Deployer to authenticate against Server and GitHub (if private Repo)
 
     ```bash
-    rsync --version
-   ```
+        ssh-keygen -t ed25519 -C "deployer_<customer>"
+    ```
+
+2. Target server needs to have the rsync binary
+
+    ```bash
+        rsync --version
+    ```
