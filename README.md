@@ -13,3 +13,7 @@
     ```bash
         rsync --version
     ```
+
+## Prepare GitHub
+
+1. Add deployer_<customer>.pub as Deploy Key (without write permissions) to your GitHub repository
